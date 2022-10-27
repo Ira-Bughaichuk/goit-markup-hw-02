@@ -65,7 +65,6 @@ body {
     color: var(--secondary-text-color);
 
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -156,8 +155,9 @@ text-align: center;
 .button:hover{
     color: var(--primary-text-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
-.portfolio-items a{
+.portfolio-items .link{
     text-decoration: none;
 }
 .portfolio-items .title{
@@ -167,20 +167,22 @@ text-align: center;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    text-align: center;
 }
 .portfolio-items .text{
     color: var(--secondary-text-color);
 
     font-size: 16px;
     line-height: 1.88;
+    text-align: center;
 }
 
 
 /*FOOTER*/
-.footer {
+.page-footer {
     background-color: var(--banner-footer-color);
 }
-.footer .logo{
+.page-footer .logo{
     color:var(--primary-text-color);
 }
 .address-list .link{
@@ -189,6 +191,12 @@ text-align: center;
 }
 .address-list .link-address{
     color: var(--primary-text-color);
+}
+.address-list .link-address:hover,
+.address-list .link-address:focus,
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--accent-color);
 }
 
 

@@ -152,6 +152,7 @@ text-align: center;
     line-height: 1.62;
     text-align: center;
 }
+.button:focus,
 .button:hover{
     color: var(--primary-text-color);
     background-color: var(--accent-color);
@@ -185,12 +186,16 @@ text-align: center;
 .page-footer .logo{
     color:var(--primary-text-color);
 }
+.address-list .link,
+.address-list .link-address{
+    font-style: normal;
+    text-decoration: none;
+}
 .address-list .link{
-    color: var(--secondary-text-color);
-
+    color: var(--footer-link-color);  
 }
 .address-list .link-address{
-    color: var(--primary-text-color);
+    color: var(--primary-text-color);  
 }
 .address-list .link-address:hover,
 .address-list .link-address:focus,
